@@ -1,7 +1,7 @@
-print("Sainty is up-to-date 🔨📣")
+print("LuhWare is up-to-date 🔨📣")
 
 
-print("Sainty 08/4/2024 Thank you all")
+print("LuhWare 08/4/2024 Thank you all")
 
 local function safePcall(func, ...)
     local success, result = pcall(func, ...)
@@ -28,7 +28,7 @@ end)
 
 local P, G, T = nil, nil, nil
 safePcall(function()
-    P = l:CreateWindow({Name = "Sainty"})
+    P = l:CreateWindow({Name = "LuhWare"})
     G = P:CreateTab({Name = "Configure"})
     T = G:CreateSection({Name = "Toggles"})
 end)
